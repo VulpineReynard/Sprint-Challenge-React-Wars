@@ -2,6 +2,12 @@ import React from 'react';
 import CharacterCard from "./CharacterCard";
 
 export default function CharacterGrid(props) {
+
+  // function getFilms() {
+  //   console.log(props)
+  // }
+  // getFilms();
+
   return (
     <div className="grid">
       {
