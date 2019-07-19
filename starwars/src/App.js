@@ -15,6 +15,7 @@ const App = () => {
       .get("https://swapi.co/api/people/")
         .then(response => {
           console.log(response.data.results);
+          console.log(response);
 
           setListOfCharacters(response.data.results);
           })

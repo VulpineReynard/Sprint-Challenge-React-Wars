@@ -8,6 +8,7 @@ export default function CharacterGrid(props) {
         props.listOfCharacters.map((character, index) => {
           return <CharacterCard
           key={index}
+          character={character}
           name={character.name}
           height={character.height}
           birthYear={character.birth_year}
