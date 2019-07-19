@@ -1,8 +1,23 @@
-.App {
-  text-align: center;
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  height: auto;
+  margin: auto;
 }
+.grid .card {
+  width: 250px;
+  height: 320px;
+  margin: 10px auto;
+  border: 2px black;
+  background: rgba(255, 255, 255, 0.788);
+  border-radius: 5px;
+}
+
 .Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+  text-align: center;
+  font-size: 5rem;
+  color: white;
 }
-/* write your parent styles in here for your App.js */
+
+/*# sourceMappingURL=App.css.map */
